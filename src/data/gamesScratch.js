@@ -1,22 +1,13 @@
 /*
-iframe: https://scratch.mit.edu/projects/{scratchId}/embed
-name: https://api.scratch.mit.edu/projects/{scratchId}
+Debe estar el juego scratch subi a la plataforma scratch
 
+Img
 https://uploads.scratch.mit.edu/get_image/project/315972535_480x360.png
-https://uploads.scratch.mit.edu/get_image/project/315985236_480x360.png
-https://uploads.scratch.mit.edu/get_image/project/315971400_480x360.png
 
-img: https://uploads.scratch.mit.edu/get_image/project/{scratchId}_480x360.png
-200x150
-282x218
-350x500
-480x360
+Scratch a html
+https://packager.turbowarp.org/
 
-<iframe
-	src="https://scratch.mit.edu/projects/1157790735/embed"
-	width="723"
-	height="600"
-></iframe>
+{ id: '1202015241', name: 'Pitágoras extendido', categories: ['6.1', '7.1'] },
 */
 
 const gamesScratchCategories = {
@@ -32,9 +23,7 @@ const gamesScratchCategories = {
 /*
 1158053446, // Vectores
 1157790735, // El gato y el ratón - ¡Atrápalo con coordenadas!
-
 1158052992, // Tensión
-
 */
 
 const gamesScratch = [
@@ -79,6 +68,7 @@ const gamesScratch = [
 	{ id: '587085191', name: 'Sesión 7. Ecuaciones trigonométricas', categories: ['10.7'] },
 	// Sesión 8. Identidades trigonométricas - https://miguelhurtado3e.github.io/matematicas/courses/10/8.html
 	{ id: '315972535', name: 'Vectores', categories: ['11.6', '10.2', 'banner'] },
+	{ id: '1202015241', name: 'Pitágoras extendido', categories: ['10'] },
 
 	// 11
 	{ id: '379638031', name: 'Sesión 3. Dominio y codominio de una función', categories: ['11.3'] },
